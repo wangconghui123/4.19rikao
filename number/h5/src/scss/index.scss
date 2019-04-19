@@ -1,2 +1,26 @@
 @import"_minix.scss";
 @import"common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: px2rem(40px);
+    background: pink;
+}
+
+.mainbody {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background: darkkhaki;
+}
+
+.footer {
+    width: 100%;
+    height: px2rem(60px);
+}
